@@ -1,0 +1,27 @@
+.block-div{
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    background-color: rgba(10, 15, 20, 0.7);
+    border-radius: 12px;
+}
+
+.humid{
+    width: 100%;
+    height: 100%;
+    background-image: url('../statics/humid.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+
+.t-sm-shadow{
+    text-shadow: 2px 2px 5px black;
+}
+
+@media (max-width:768px){
+    .bottom-div{
+        width: 50% !important;
+    }
+}
